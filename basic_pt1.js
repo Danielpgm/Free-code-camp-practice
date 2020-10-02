@@ -38,3 +38,14 @@ mix_quote= 'kata mang ade odading mang oleh rasanya "anjayyy banget"'
 percakapan= 'dono ask Filbert "Hey let\'s go to noel\'s warung"';
 /*kenapa menggunakan backslash (\) dikarenakan ditengah kalimat terdapat tanda petik
 yang harus digunakan, maka dari itu backslash digunakan sebagai escape character */
+
+/*escape sequence valid in JS
+
+\' = single quote
+\" = double quote
+\t = tab
+\n = new line
+\\ = backslash
+
+
+*/
