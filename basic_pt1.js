@@ -50,14 +50,30 @@ yang harus digunakan, maka dari itu backslash digunakan sebagai escape character
 */
 
 /*---------------------------------------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------------------*/
-
 /*-----------------------------------Length Of String------------------------------------------*/
+
 /*cara untuk mengetahui panjang String adalah dengan menggunakan ".length"
 contoh: var nama= "Daniel Paskalis"; nama.length
 atau "Daniel Paskalis".length*/
 
 var myName= "nama saya adalah mang oleh"; // totalng panjang kalimat 26
 console.log(myName); // menampilkan isi dari variable myName
-var nilai= myName.length;// menghitung panjang value myName
-console.log(nilai)// menampilkan panjang value myName
+var panjangnama= myName.length;// menghitung panjang value myName
+console.log(panjangnama)// menampilkan panjang value myName
+
+/* cara mencari huruf terakhir dari kalimat */
+var nama= "Daniel";
+var terakhir= nama[nama.length - 1];//mencari huruf terakhir
+console.log(terakhir); //hasilnya L
+
+/*---------------------------------------------------------------------------------------------*/
+/*-----------------------------------Bracket notation------------------------------------------*/
+
+/* Bracket notation digunakan untuk mencari huruf yang spesifik dalam sebuah kalimat
+contoh: var Kota= "Banten" Kota[0] = B
+"[0]' merupakan index/ letak huruf yang ingin kita cari *dimulai dari 0 */
+
+var Jeniskendaraan= "Toyota";
+console.log(Jeniskendaraan[0]);
+
+
